@@ -30,7 +30,7 @@ In the future, I would like the user to be able to click on a specific PacMan to
 
 **MIT License**
 
-*Copyright (c) 2020 John Williams*
+*Copyright (c) 2021 Kathryn Michael*
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
