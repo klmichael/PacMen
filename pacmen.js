@@ -4,8 +4,8 @@ const pacMen = [];
 // I added these variables to support the chomping and flipping effects.
 var mouth = 0;
 const pacArray = [
-    ['PacMan1.png', 'PacMan2.png'],
-    ['PacMan3.png', 'PacMan4.png']
+    ['Images/PacMan1.png', 'Images/PacMan2.png'],
+    ['Images/PacMan3.png', 'Images/PacMan4.png']
 ];
 var direction = 0;
     
