@@ -2,6 +2,7 @@
 const pacMen = []; 
 
 // I added these variables to support the chomping and flipping effects.
+// We did a similar flipping and chomping effect in an earlier assignment, so I incorporated that same approach here.
 var mouth = 0;
 const pacArray = [
     ['Images/PacMan1.png', 'Images/PacMan2.png'],
@@ -75,6 +76,8 @@ function makeOne() {
     pacMen.push(makePac()); // add a new PacMan
 }
 
+// I added this code. This article helped me understand how to use the removeChild method:
+// https://www.w3schools.com/jsref/met_node_removechild.asp
 function deleteOne() {
     let i = Math.floor(Math.random() * pacMen.length);
     var game = document.getElementById('game');
